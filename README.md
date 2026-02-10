@@ -1,5 +1,6 @@
 # Low-Level C Practice
-### A long-term systems programming learning project
+
+## A long-term systems programming learning project
 
 ![C](https://img.shields.io/badge/language-C-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-WSL%20%7C%20Ubuntu-lightgrey)
@@ -18,18 +19,21 @@ with the long-term vision of becoming a low-level C developer at Apple.
 ## 📘 Lessons Completed
 
 ### Lesson 1 — C Basics
+
 - Basic syntax  
 - First program  
 - Compiling with clang  
 - Simple Makefile  
 
 ### Lesson 2 — Variables, Data Types, and Functions
+
 - Primitive types  
 - Function declarations and definitions  
 - Scope and lifetime  
 - Basic I/O  
 
 ### Lesson 3 — Pointers & Memory Basics
+
 - What a pointer is  
 - Address-of (`&`) and dereference (`*`)  
 - Pointer to pointer (`**`)  
@@ -38,23 +42,27 @@ with the long-term vision of becoming a low-level C developer at Apple.
 - Apple-style Makefile for multiple executables  
 
 ### Lesson 4 — Memory Model (Stack vs. Heap)
+
 - Stack allocation vs. heap allocation  
 - `malloc` / `free` basics  
 - NULL checks and cleanup  
 
 ### Lesson 5 — Pointers, `const`, and Output Params
+
 - `const` correctness for read-only inputs  
 - Output parameters (`out_*`) patterns  
 - Null checks and defensive APIs  
 - Manual string duplication with heap memory  
 
 ### Lesson 6 — String Utilities Module
+
 - Public header + private implementation split  
 - String length, count, and starts-with helpers  
 - Safe APIs that handle NULL  
 - Reusable utility library structure  
 
 ### Lesson 7 — Error Handling Patterns
+
 - `enum`-based error codes  
 - Error-to-string conversion  
 - API design that returns explicit status  
@@ -62,6 +70,7 @@ with the long-term vision of becoming a low-level C developer at Apple.
 ---
 
 ## 📂 Project Structure
+
 projects/
 ├── 01_memory_allocator/
 ├── 02_variables_and_data_types/
@@ -71,8 +80,8 @@ projects/
 ├── 06_string_utils/
 └── 07_error_handling/
 
-
 Each lesson includes:
+
 - Source `.c` files  
 - A dedicated Makefile  
 - Exercises, challenges, and examples  
@@ -82,7 +91,7 @@ Each lesson includes:
 ## 📈 Lesson Progress Tracker
 
 | Lesson | Topic | Status | Notes |
-|--------|---------------------------|--------|------------------------|
+| -------- | --------------------------- | -------- | -------------------------- |
 | 1 | C Basics | ✔️ Completed | |
 | 2 | Variables & Data Types | ✔️ Completed | |
 | 3 | Pointers Basics | ✔️ Completed | |
@@ -133,7 +142,6 @@ Build the fundamental skills needed to work as a low-level C developer at Apple,
 - efficient data structures
 - system-level debugging
 - UNIX/macOS internals
-
 
 🧑‍💻 Author
 
