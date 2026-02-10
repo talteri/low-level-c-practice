@@ -31,19 +31,45 @@ with the long-term vision of becoming a low-level C developer at Apple.
 
 ### Lesson 3 — Pointers & Memory Basics
 - What a pointer is  
-- Address-of (`&`)  
-- Dereference (`*`)  
+- Address-of (`&`) and dereference (`*`)  
 - Pointer to pointer (`**`)  
-- Using pointers to modify variables  
+- Pointer sizes vs. value sizes  
+- Swapping values via pointers  
 - Apple-style Makefile for multiple executables  
+
+### Lesson 4 — Memory Model (Stack vs. Heap)
+- Stack allocation vs. heap allocation  
+- `malloc` / `free` basics  
+- NULL checks and cleanup  
+
+### Lesson 5 — Pointers, `const`, and Output Params
+- `const` correctness for read-only inputs  
+- Output parameters (`out_*`) patterns  
+- Null checks and defensive APIs  
+- Manual string duplication with heap memory  
+
+### Lesson 6 — String Utilities Module
+- Public header + private implementation split  
+- String length, count, and starts-with helpers  
+- Safe APIs that handle NULL  
+- Reusable utility library structure  
+
+### Lesson 7 — Error Handling Patterns
+- `enum`-based error codes  
+- Error-to-string conversion  
+- API design that returns explicit status  
 
 ---
 
 ## 📂 Project Structure
 projects/
-├── lesson_01/
-├── lesson_02/
-└── lesson_03/
+├── 01_memory_allocator/
+├── 02_variables_and_data_types/
+├── 03_pointers/
+├── 04_memory_model/
+├── 05_pointers_and_const/
+├── 06_string_utils/
+└── 07_error_handling/
 
 
 Each lesson includes:
@@ -60,10 +86,10 @@ Each lesson includes:
 | 1 | C Basics | ✔️ Completed | |
 | 2 | Variables & Data Types | ✔️ Completed | |
 | 3 | Pointers Basics | ✔️ Completed | |
-| 4 | Dynamic Memory (malloc/free) | ⏳ In Progress | |
-| 5 | Pointer Arithmetic & Strings | ⏳ Pending | |
-| 6 | Structs & Memory Layout | ⏳ Pending | |
-| 7 | File I/O | ⏳ Pending | |
+| 4 | Memory Model (Stack vs. Heap) | ✔️ Completed | |
+| 5 | Pointers, `const`, Output Params | ✔️ Completed | |
+| 6 | String Utilities | ✔️ Completed | |
+| 7 | Error Handling | ✔️ Completed | |
 | 8 | Debugging & Sanitizers | ⏳ Pending | |
 | 9 | Custom Memory Allocator | ⏳ Pending | |
 | 10 | System Calls & OS Concepts | ⏳ Pending | |
